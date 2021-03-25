@@ -36,6 +36,8 @@
                             <li><a href="#">Realme</a></li>
                             <li class="active"><a href="#">Xiaomi</a></li>
                     </ul>
+                            <input type="button" id="btnAsus" value="Asus"/>
+                            <input type="button" id="btnXiaomi" value="Xiaomi"/>
                     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
                     <script type="text/javascript">
                     $(document).on('click','ul li',function(){
@@ -48,7 +50,7 @@
 
     <!-- Center devices -->
     <div id="downloads">
-         <div class="container1">
+        <div id = "xiaomi" class="container1">
         <div class="box">
             <div class="device-item">
                 <img src="assets/img/devices/dipper.jpg">
@@ -575,7 +577,7 @@
        </footer>
 
        <img onclick="topFunction()" id="back-to-top" src="assets/img/arrow.png" style="display: block; width: 50px;">
-  
+    <script src="assets/js/download.js"></script>
   <script>
   //Get the button
   var mybutton = document.getElementById("back-to-top");
